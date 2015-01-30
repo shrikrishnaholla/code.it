@@ -1,0 +1,32 @@
+{
+  "name": "code.it",
+  "version": "1.0.0",
+  "description": "Web based real time collaborative text editor and in-browser interpreter",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.11.1",
+    "share": "^0.6.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shrikrishnaholla/code.it.git"
+  },
+  "keywords": [
+    "real",
+    "time",
+    "collaborative",
+    "text",
+    "editor",
+    "interpreter"
+  ],
+  "author": "Shrikrishna Holla <shrikrishna.holla@gmail.com>",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/shrikrishnaholla/code.it/issues"
+  },
+  "homepage": "https://github.com/shrikrishnaholla/code.it"
+}
