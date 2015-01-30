@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <title>code.it</title>
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" type="text/css" href="http://getbootstrap.com/2.3.2/assets/css/bootstrap.css"> -->
+    <link href="css/sticky-footer-navbar.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/ide.css">
+    <link rel="stylesheet" type="text/css" href="css/menubar.css">
+    <link rel="stylesheet" href="css/ansi.css" type="text/css" media="all" />
+    <link href='http://fonts.googleapis.com/css?family=Sintony:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Berkshire+Swash' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Snippet' rel='stylesheet' type='text/css'>
+    <link type="text/css" rel="stylesheet" href="css/jquery.dropdown.css" />
+
+    <script src="lib/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" charset="utf-8" src="lib/jsrepl/repl.js" id="jsrepl-script"></script>
+    <script type="text/javascript" charset="utf-8" src="lib/jsrepl/languages.js"></script>
+    
+  </head>
+
+  <body>
+
+    <!-- Wrap all page content here -->
+    <div id="wrap">
+
+      <!-- Fixed navbar -->
+      <div class="navbar navbar-default navbar-fixed-top" style="background-color: #242E35">
+        <div class="container" >
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            
+          </div>
+
+          <div class="collapse navbar-collapse">
+            <ul id="top-bar" class="nav navbar-nav navbar-right">
+            
+            <li><a href=""><span class="usercount"></span></a></li>
+
+<!--            <li class="dropdown">
+                <a href="#" data-dropdown="#lang_list" data-target="#" role="button" class="dropdown-toggle" data-toggle="dropdown" id="language">Language <b class="caret"></b></a>
+              <a href="#" data-dropdown="#lang_list">Languages</a>
+                <div id="lang_list" class="dropdown dropdown-tip">
+                  <ul class="dropdown-menu" role="menu" id="language_menu"></ul>
+                </div>
+              </li>
+              <li class="dropdown">
+                <a href="" class="dropdown-toggle" data-toggle="dropdown" id="file">File <b class="caret"></b></a>
+                <ul class="dropdown-menu" id="file_menu">
+                  <li><a href="./" id="new">New</a></li>
+                  <li><a href="" class="paste">Create a paste</a></li>
+                </ul>
+              </li>-->
+<!--
+            <li><button state="offhook" type="button" id="makecall-btn" class="btn btn-default navbar-btn call-btn" style="border-radius: 0px;width:100px;background-color:#2474BA">Initializing</button></li>
+-->
+            <!-- <li class="active"><a href="./"></a></li>-->
+<li><button type="button" class="btn btn-success navbar-btn python" style="border-radius: 0px;width:100px;">Python</button></li>
+<li><button type="button" class="btn btn-danger navbar-btn ruby" style="border-radius: 0px;width:100px;">Ruby</button></li>
+<li><button type="button" class="btn btn-warning navbar-btn javascript" style="border-radius: 0px;width:100px;">JavaScript</button></li>
+<li><button type="button" class="btn btn-default navbar-btn run" style="border-radius: 0px;width:100px;">Run</button></li>
+
+            </ul>
+            <ul class="nav navbar-nav navbar-left">
+                <li class="active"><a id="app-title" href="./">Code<span style="color:#428bca;">.</span>it</a></li>
+              
+            </ul>
+          </div> 
+          <!--/.nav-collapse -->
+        </div>
+      </div>
+
+ <!-- Begin page content -->
+      <div class="container" id="main-content">
+
+        <!-- <div class="page-header"> -->
+            <div id="editor" class="editor" contenteditable></div>
+            <div id="console" ></div>
+            <div id="container" style="display:none;"></div>
+        <!-- </div> -->
+      </div>
+    </div>
+
+    <div id="footer" style="background-color: #485C5A">
+      <div class="container">
+        <p class="text-muted credit" style="font-family: 'Snippet', sans-serif; text-align:center;">&nbsp;&nbsp;Code on the left. Run on the right. Unique URL on the top. | Copyright (c) 2013 | Built at TechCrunch India Hackathon</p>
+      </div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    
+   
+    <script type="type/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Ajax.org ace embeddable code editor [http://ace.ajax.org/]-->
+    <script type="text/javascript" charset="utf-8" src="lib/ace/ace.js"></script>
+    
+    <!-- ShareJS for supportive collaborative editing [http://sharejs.org:8000/] -->
+    <script src="/channel/bcsocket.js"></script> 
+    <script src="lib/share/share.js"></script>
+    <script src="lib/share/ace.js"></script>
+    
+    <!-- JqConsole -->
+    <script src="lib/jqconsole.js"></script>
+    <script type="text/javascript" src="js/theme.js"></script>
+    <script type="text/javascript" src="js/languages.js"></script>
+    <script type="text/javascript" src="js/console.js"></script>
+
+
+  </body>
+</html>
+

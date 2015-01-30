@@ -1,0 +1,97 @@
+
+html, body {
+    width: 100%;
+    height: 600px;
+}
+
+body {
+    margin: 0px 0px 0px 0px;
+    height: 100%;
+    overflow: auto;
+}
+
+.editor {
+    position: relative;
+    width: 49.5%;
+    height: 600px;
+    float: left;
+    overflow: auto;
+    /*zoom: 1.15;*/
+    border: 1px solid #AEAEAE;
+    outline: none;
+    /*border-radius: 4px;*/
+}
+
+/* JQConsole */
+#makecall-btn {
+  background-color: #5cb85c;
+}
+
+.runbutton:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
+
+#main-content {
+  margin-bottom: 50px;
+}
+
+#console {
+    width: 49.5%;
+    height: 600px;
+    position:relative;
+    background-color: black;
+    float: right;
+    color: #0d0;
+    overflow: auto;
+    border: 0px solid #AEAEAE;
+    outline: none;
+    /*border-radius: 4px;*/
+  }
+  .jqconsole {
+    padding: 10px;
+    padding-bottom: 10px;
+  }
+  .jqconsole-cursor {
+    background-color: #666;
+    text-decoration: blink;
+  }
+  .jqconsole-blurred .jqconsole-cursor {
+    background-color: #999;
+  }
+  .jqconsole-prompt {
+    /*color: #0d0;*/
+    color: black;
+  }
+  .jqconsole-old-prompt {
+    color: black;
+  }
+  .jqconsole-input {
+    color: black;
+  }
+  .jqconsole-old-input {
+    color: black;
+  }
+  .brace {
+    color: #00FFFF;
+  }
+  .paran {
+    color: #FF00FF;
+  }
+  .bracket {
+    color: #FFFF00;
+  }
+  .jqconsole-composition {
+    background-color: red;
+  }
+
+
+  #app-title {
+    /*font-family: 'Sintony', sans-serif;*/
+    font-family: 'Berkshire Swash', cursive;
+  }
+
+  #top-bar {
+    font-family: 'Sintony', sans-serif;
+  }

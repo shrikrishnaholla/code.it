@@ -1,0 +1,4 @@
+[submodule "public/lib/jsrepl"]
+	path = public/lib/jsrepl
+	url = https://github.com/shrikrishnaholla/jsrepl
+	branch = compiled

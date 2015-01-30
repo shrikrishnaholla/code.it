@@ -1,0 +1,217 @@
+.signup-box{
+	display: none;
+	top:0;
+}
+
+.forgot-password-box{
+	display: none;
+	top: 229px;
+}
+
+.signin-container,.forgot-password-container{
+
+	margin-left: 75%;
+	margin-top: 180px;
+}
+
+.signin-box,.forgot-password-box {
+	position: relative;
+	background: rgba(0,0,0,0.4);
+	border-radius: 3px;
+	color: #F87217;
+	width: 300px;
+	padding-left: 10px;
+	line-height: 20px;
+	min-height: 244px;
+	border: 1px solid rgba(0,0,0,0.1);
+	border-bottom: 2px solid rgba(0,0,0,0.1);
+	box-shadow: 0 2px 8px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -20px 30px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 0 2px 8px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -20px 30px rgba(0,0,0,0.3);
+	
+}
+
+.forgot-password-box{
+	position: absolute;
+	width: 300px;	
+	line-height: 32px;
+	text-align: center;
+	min-height: 100px;
+	
+}
+
+.signin-box h3{
+	font-size: 16px;
+	font-weight: normal;
+	padding-left: 10px;
+}
+
+.username-div,.password-div{
+	line-height: 30px;
+	padding-left: 28px;
+}
+
+#username,#password{
+	display: block;
+}
+
+.signin-button-div,.signup-button-div,.recovery-button-div{
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 26px;
+}
+
+#signup-text{
+
+	position:relative;
+	margin-left: -233px;
+
+	/*color:#F87217;*/
+	cursor: pointer;
+}
+#forgot-password-text{
+	cursor: pointer;
+	/*color:#F87217;*/
+	margin-left: 2.5px;
+
+}
+
+.submit-button,.signup-button,.recovery-button
+{
+	display: inline-block;
+	min-width:40px;
+	text-align: center;
+	font-weight: bold;
+	padding: 0 8px;
+	margin-left: 169px;
+	border-radius: 2px;
+	font-family: inherit;
+	cursor: default;
+}
+
+.recovery-button{
+	margin-left: 161px;
+}
+
+.signup-button{
+	margin-left:320px;
+}
+
+.signup-box {
+	position: absolute;
+	/*color: #F87217;*/
+	background: rgba(0,0,0,0.4);
+	border-radius: 3px;
+	width: 500px;
+	margin: 110px 0 0 10%;
+	padding-left: 70px;
+	line-height: 30px;
+	border: 1px solid rgba(0,0,0,0.1);
+	border-bottom: 2px solid rgba(0,0,0,0.1);
+
+	box-shadow: 0 2px 8px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -20px 30px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 0 2px 8px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -20px 30px rgba(0,0,0,0.3);
+	
+}
+
+#password-match{
+	position: relative;
+	margin-left: -30px;
+}
+#email,#username-entered,#password-entered,#name{
+	display: block;
+}
+
+.password-confirmation-div{
+	display: block;
+}
+
+.signup-title-div{
+	display: block;
+}
+
+#close-button{
+	position: absolute;
+	margin-top: -60px;
+	margin-left: 465px;
+	cursor: pointer;
+}
+
+#close-button-recover
+{	
+	position: absolute;
+	margin-left: 270px;
+	margin-top: -3px;
+	cursor: pointer;
+}
+
+
+#close-button:hover:after{
+    background: black;
+    border-radius: 5px;
+    color: #fff;
+    margin-left: 10px;
+    opacity: 0.6;
+    content: attr(data-tooltip);
+    padding: 5px 15px;
+    width: 220px;
+}
+#close-button-recover:hover:after{
+	background: black;
+    border-radius: 5px;
+    color: #fff;
+    
+    margin-left: 4px;
+    margin-top:30px;
+
+    opacity: 0.6;
+    content: attr(data-tooltip);
+    padding: 5px 5px;
+ 
+}
+
+#forgot-password-text
+{
+	display: none;
+}
+
+/* To solve some problems with firefox */
+@-moz-document url-prefix()
+{
+	#signup-text
+	{
+
+		position:relative;
+		margin-left: -232px;
+
+		/*color:#F87217;*/
+		cursor: pointer;
+	}
+
+	#forgot-password-text
+	{
+		/*color:#F87217;*/
+		margin-left: 2.5px;
+
+	}
+
+	#close-button-recover
+	{	
+		margin-left: 39px;
+		margin-top: -3px;
+		cursor: pointer;
+	}
+	
+	.submit-button,.signup-button,.recovery-button{
+		width:69px;
+	}
+	.signup-button
+	{
+		margin-left:319px;
+	}
+	.submit-button
+	{
+		margin-left: 165px;
+	}
+
+}
